@@ -6,6 +6,7 @@
     section#login{
         width: 258px;
     }
+    
 }
 @media screen and (min-width:768px) and (max-width:992px){
     header>h1{
@@ -30,7 +31,7 @@
 }
 @media screen and (min-width:992px){
     body{
-        background-image: linear-gradient(to right, #4d4233d7,#796451be,#413e34);
+        background-image: linear-gradient(to right, #4d4233d7,#796451be,#38362f);
     }
     header>h1{
         transform: translate(13%,100%);
@@ -54,4 +55,10 @@
     div#formulario > p{
         font-size: 1.2em;
     }
+form > a.botao{
+    display: block;
+    text-align: center;
+    background-color: aqua;
+}
+
 }
