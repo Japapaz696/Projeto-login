@@ -72,12 +72,33 @@ div#formulario > p{
 }
 a#secreto{
     text-decoration: none;
-    display: ;
+    display: none;
 }
 a#secreto:hover{
     display: inline;
 }
+form>div.campo{
+    background-color: #79645185;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
 input#f{
     display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    background-color: #79645193;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
 }
+label{
+    display: none;
+}
+
     
