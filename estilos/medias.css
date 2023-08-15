@@ -28,6 +28,18 @@
         float: right;
         width: 70%;
     }
+    input#f{
+        display: block;
+        font-size: 1em;
+        width: 90%;
+        height: 40px;
+        background-color: #79645193;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin: auto;
+    }
 }
 @media screen and (min-width:992px){
     body{
@@ -54,6 +66,18 @@
     }
     div#formulario > p{
         font-size: 1.2em;
+    }
+    input#f{
+        display: block;
+        font-size: 1em;
+        width: 90%;
+        height: 40px;
+        background-color: #79645193;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin: auto;
     }
 form > a.botao{
     display: block;
