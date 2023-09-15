@@ -8,9 +8,9 @@
     }
     
 }
-@media screen and (min-width:768px) and (max-width:992px){
+@media screen and (min-width:500px) and (max-width:992px){
     header>h1{
-        transform: translate(-16%,100%);
+        transform: translate(-16%,-117px);
     }
     body{
         background-image: linear-gradient(to right, #4d4233d7,#7964519c,#49463e);
