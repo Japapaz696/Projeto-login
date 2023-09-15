@@ -1,7 +1,9 @@
 @charset "UTF-8";
-@media screen and (min-width:459px) and (max-width:767px){
+@media screen  and (max-width:767px){
     header>h1{
-        transform: translate(-1000%,13%);
+        color: rgba(255, 255, 255, 0);
+        position: fixed;
+        bottom: -100px;
     }
     section#login{
         width: 258px;
